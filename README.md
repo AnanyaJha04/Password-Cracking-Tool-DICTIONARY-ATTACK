@@ -56,5 +56,20 @@ The primary purpose of this code is to illustrate how this type of attack works 
 12. Logging: Record the cracking attempts and results.
 13. Rate Limiting (Carefully): Implement delays to mimic realistic login attempts (use with caution and ethically).
 
+# SHA-256
+SHA-256 stands for Secure Hash Algorithm 256-bit. It's a highly secure and widely used cryptographic hash function that:
+1. Takes any input data.
+2. Produces a fixed-size output of 256 bits (64 hexadecimal characters).
+3. Is deterministic (same input always gives the same output).
+4. Is one-way (virtually impossible to reverse).
+5. Is highly collision-resistant (extremely difficult to find two different inputs with the same hash).
+
+It's a fundamental building block in many security applications, including:
+1. Password storage (hashing before storing).
+2. Data integrity checks (verifying file authenticity).
+3. Digital signatures.
+4. Cryptocurrencies (like Bitcoin).
+5. Blockchain technology.
+
 
 
