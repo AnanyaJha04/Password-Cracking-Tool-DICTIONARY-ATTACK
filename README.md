@@ -71,5 +71,11 @@ It's a fundamental building block in many security applications, including:
 4. Cryptocurrencies (like Bitcoin).
 5. Blockchain technology.
 
+## Wordlist
+It is a text file containing a large collection of potential passwords.
+The uploaded wordlist is the set of passwords used to crack the hashed password and generate the real password.
+It is a list of passwords made from the combination of 'Ananya', Numbers and Special Characters.
+
+
 
 
