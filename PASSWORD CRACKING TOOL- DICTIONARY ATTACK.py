@@ -1,16 +1,5 @@
 import hashlib
-
 def crack_password(hashed_password, wordlist_path):
-    """
-    Attempts to crack a password using a dictionary attack.
-
-    Args:
-        hashed_password (str): The SHA-256 hash of the password to crack.
-        wordlist_path (str): The path to the dictionary file (one word per line).
-
-    Returns:
-        str or None: The cracked password if found, otherwise None.
-    """
     try:
         with open(wordlist_path, 'r') as wordlist_file:
             for word in wordlist_file:
